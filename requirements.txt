@@ -1,4 +1,4 @@
-pyrogram==2.1.2
+pyrogram==2.0.19
 tgcrypto
 fastapi
 uvicorn[standard]
