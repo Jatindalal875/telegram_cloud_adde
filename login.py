@@ -1,8 +1,8 @@
 from pyrogram import Client
 import os
 
-api_id = int(os.getenv("API_ID", 123456))
-api_hash = os.getenv("API_HASH", "your_api_hash")
+api_id = int(os.getenv("API_ID", 27417670))
+api_hash = os.getenv("API_HASH", "26bc34db2712e4b099d1918bd59271bf")
 
 with open("accounts.txt") as f:
     nums = [x.strip() for x in f]
